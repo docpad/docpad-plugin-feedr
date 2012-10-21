@@ -1,7 +1,5 @@
-feed = @feedr.feeds.github
-
 ul ->
-	for entry in feed.entry
-		li datetime: entry.published, ->
+	for entry in @feedr.feeds.github.entry
+		li datetime: entry.updated, ->
 			a href: entry.link['@'].href, title: "View on Github", ->
 				entry.title

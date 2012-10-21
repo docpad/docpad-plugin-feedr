@@ -14,7 +14,7 @@
 				# DocPad's Old Github Stream
 				# Included here as an example
 				github:
-					url: "https://github.com/bevry/docpad/commits/4.x.atom"
+					url: "https://github.com/docpad/docpad-plugin-feedr/commits/old-for-testing.atom"
 
 		# Coffee
 		coffee:

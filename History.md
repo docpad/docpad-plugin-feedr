@@ -1,5 +1,9 @@
 ## History
 
+- v2.2.0 October 22, 2012
+	- Abstracted out non docpad specific functionality into new [feedr](https://github.com/bevry/feedr) project
+		- See the new configuration options [here](https://github.com/bevry/feedr#configuration)
+
 - v2.1.0 August 19, 2012
 	- Better handling of jsonp responses
 	- Better handling of bad json responses

@@ -25,7 +25,6 @@ plugins:
 
 			someOtherFeedName:
 				url: "someOtherFeedUrl"
-}
 ```
 
 Feedr can also clean up responses like `"key": {"_content": "the actual value"}` (as used on Flickr) to the cleaner `"key": 'the actual value"`. To enable this set `clean` to `true` inside your feed configuration like so:
@@ -34,7 +33,6 @@ Feedr can also clean up responses like `"key": {"_content": "the actual value"}`
 flickrUser:
 	url: "http://api.flickr.com/services/rest/?method=flickr.people.getInfo&api_key=#{FLICKR_API_KEY}&user_id=#{FLICKR_USER_ID}&format=json&nojsoncallback=1"
 	clean: true
-}
 ```
 
 ### Rendering

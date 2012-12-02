@@ -1,5 +1,8 @@
 ## History
 
+- v2.4.0 December 2, 2012
+	- Updated feedr dependency from 2.3.x to 2.4.x
+
 - v2.3.0 December 2, 2012
 	- Updated feedr dependency from 2.2.x to 2.3.x
 

@@ -1,5 +1,8 @@
 ## History
 
+- v2.3.0 December 2, 2012
+	- Updated feedr dependency from 2.2.x to 2.3.x
+
 - v2.2.0 October 22, 2012
 	- Abstracted out non docpad specific functionality into new [feedr](https://github.com/bevry/feedr) project
 		- See the new configuration options [here](https://github.com/bevry/feedr#configuration)

@@ -1,6 +1,6 @@
 {
 	"name": "docpad-plugin-feedr",
-	"version": "2.4.1",
+	"version": "2.4.2",
 	"description": "Adds support for reading feeds to DocPad",
 	"homepage": "http://docpad.org/plugin/feedr",
 	"keywords": [
@@ -17,10 +17,10 @@
 	],
 	"author": "Bevry Pty Ltd <us@bevry.me> (http://bevry.me)",
 	"maintainers": [
-		"Benjamin Lupton <b@lupton.cc> (http://balupton.com)"
+		"Benjamin Lupton <b@lupton.cc> (https://github.com/balupton)"
 	],
 	"contributors": [
-		"Benjamin Lupton <b@lupton.cc> (http://balupton.com)"
+		"Benjamin Lupton <b@lupton.cc> (https://github.com/balupton)"
 	],
 	"bugs": {
 		"url": "http://docpad.org/plugin/feedr/issues"
@@ -41,6 +41,6 @@
 	},
 	"main": "./out/feedr.plugin.js",
 	"scripts": {
-		"test": "node ./test/feedr.test.js"
+		"test": "node ./out/feedr.test.js"
 	}
 }

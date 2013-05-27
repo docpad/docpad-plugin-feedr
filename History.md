@@ -1,5 +1,8 @@
 ## History
 
+- v2.5.0 May 27, 2013
+	- Updated feedr dependency from ~2.4.1 ~2.5.0
+
 - v2.4.2 March 7, 2013
 	- Repackaged
 

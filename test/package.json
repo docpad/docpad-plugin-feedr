@@ -3,6 +3,6 @@
 	"version": "0.1.0",
 	"private": true,
 	"dependencies": {
-		"docpad-plugin-coffee": "latest"
+		"docpad-plugin-coffeekup": "latest"
 	}
 }

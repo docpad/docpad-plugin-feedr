@@ -1,6 +1,6 @@
 {
 	"name": "docpad-plugin-feedr",
-	"version": "2.5.0",
+	"version": "2.6.0",
 	"description": "Adds support for reading feeds to DocPad",
 	"homepage": "http://docpad.org/plugin/feedr",
 	"keywords": [
@@ -30,11 +30,13 @@
 		"url": "https://github.com/docpad/docpad-plugin-feedr.git"
 	},
 	"engines" : {
-		"node": ">=0.4",
-		"docpad": "6.x"
+		"node": ">=0.4"
+	},
+	"peerDependencies": {
+		"docpad": "6"
 	},
 	"dependencies": {
-		"feedr": "~2.5.0"
+		"feedr": "~2.6.0"
 	},
 	"devDependencies": {
 		"coffee-script": "~1.6.2"

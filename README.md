@@ -1,17 +1,25 @@
-# Feedr Plugin for [DocPad](http://docpad.org)
+# [Feedr](https://github.com/bevry/feedr) Plugin for [DocPad](http://docpad.org)
 
-[![Build Status](https://secure.travis-ci.org/docpad/docpad-plugin-feedr.png?branch=master)](http://travis-ci.org/docpad/docpad-plugin-feedr "Check this project's build status on TravisCI")
-[![NPM version](https://badge.fury.io/js/docpad-plugin-feedr.png)](https://npmjs.org/package/docpad-plugin-feedr "View this project on NPM")
-[![Gittip donate button](http://badgr.co/gittip/docpad.png)](https://www.gittip.com/docpad/ "Donate weekly to this project using Gittip")
-[![Flattr donate button](https://raw.github.com/balupton/flattr-buttons/master/badge-89x18.gif)](http://flattr.com/thing/344188/balupton-on-Flattr "Donate monthly to this project using Flattr")
-[![PayPayl donate button](https://www.paypalobjects.com/en_AU/i/btn/btn_donate_SM.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=QB8GQPZAH84N6 "Donate once-off to this project using Paypal")
+<!-- BADGES/ -->
 
-This plugin is able to pull in remote json and xml feeds, convert them to JSON data, and expose them to `@feedr.feeds[feednName]` for your templates.
+[![Build Status](http://img.shields.io/travis-ci/docpad/docpad-plugin-feedr.png?branch=master)](http://travis-ci.org/docpad/docpad-plugin-feedr "Check this project's build status on TravisCI")
+[![NPM version](http://badge.fury.io/js/docpad-plugin-feedr.png)](https://npmjs.org/package/docpad-plugin-feedr "View this project on NPM")
+[![Dependency Status](https://david-dm.org/docpad/docpad-plugin-feedr.png?theme=shields.io)](https://david-dm.org/docpad/docpad-plugin-feedr)
+[![Development Dependency Status](https://david-dm.org/docpad/docpad-plugin-feedr/dev-status.png?theme=shields.io)](https://david-dm.org/docpad/docpad-plugin-feedr#info=devDependencies)<br/>
+[![Gittip donate button](http://img.shields.io/gittip/docpad.png)](https://www.gittip.com/docpad/ "Donate weekly to this project using Gittip")
+[![Flattr donate button](http://img.shields.io/flattr/donate.png?color=yellow)](http://flattr.com/thing/344188/balupton-on-Flattr "Donate monthly to this project using Flattr")
+[![PayPayl donate button](http://img.shields.io/paypal/donate.png?color=yellow)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=QB8GQPZAH84N6 "Donate once-off to this project using Paypal")
+[![BitCoin donate button](http://img.shields.io/bitcoin/donate.png?color=yellow)](https://coinbase.com/checkouts/9ef59f5479eec1d97d63382c9ebcb93a "Donate once-off to this project using BitCoin")
+
+<!-- /BADGES -->
+
+
+This plugin is able to pull in remote json and xml feeds, convert them to JSON data, and expose them to `@feedr.feeds[feedName]` for your templates, via the [Feedr](https://github.com/bevry/feedr) module.
 
 
 ## Install
 
-```
+``` bash
 docpad install feedr
 ```
 
@@ -71,13 +79,61 @@ Then inside your templates, we would do something like the following to render t
 					tweet.text
 	```
 
+<!-- HISTORY/ -->
 
 ## History
+[Discover the change history by heading on over to the `HISTORY.md` file.](https://github.com/docpad/docpad-plugin-feedr/blob/master/HISTORY.md#files)
 
-You can discover the history inside the `History.md` file
+<!-- /HISTORY -->
 
+
+<!-- CONTRIBUTE/ -->
+
+## Contribute
+
+[Discover how you can contribute by heading on over to the `CONTRIBUTING.md` file.](https://github.com/docpad/docpad-plugin-feedr/blob/master/CONTRIBUTING.md#files)
+
+<!-- /CONTRIBUTE -->
+
+
+<!-- BACKERS/ -->
+
+## Backers
+
+### Maintainers
+
+These amazing people are maintaining this project:
+
+- Benjamin Lupton <b@lupton.cc> (https://github.com/balupton)
+
+### Sponsors
+
+No sponsors yet! Will you be the first?
+
+[![Gittip donate button](http://img.shields.io/gittip/docpad.png)](https://www.gittip.com/docpad/ "Donate weekly to this project using Gittip")
+[![Flattr donate button](http://img.shields.io/flattr/donate.png?color=yellow)](http://flattr.com/thing/344188/balupton-on-Flattr "Donate monthly to this project using Flattr")
+[![PayPayl donate button](http://img.shields.io/paypal/donate.png?color=yellow)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=QB8GQPZAH84N6 "Donate once-off to this project using Paypal")
+[![BitCoin donate button](http://img.shields.io/bitcoin/donate.png?color=yellow)](https://coinbase.com/checkouts/9ef59f5479eec1d97d63382c9ebcb93a "Donate once-off to this project using BitCoin")
+
+### Contributors
+
+These amazing people have contributed code to this project:
+
+- [Benjamin Lupton](https://github.com/balupton) <b@lupton.cc> — [view contributions](https://github.com/docpad/docpad-plugin-feedr/commits?author=balupton)
+
+[Become a contributor!](https://github.com/docpad/docpad-plugin-feedr/blob/master/CONTRIBUTING.md#files)
+
+<!-- /BACKERS -->
+
+
+<!-- LICENSE/ -->
 
 ## License
 
-Licensed under the [MIT License](http://creativecommons.org/licenses/MIT/)
-<br/>Copyright &copy; 2012+ [Bevry Pty Ltd](http://bevry.me)
+Licensed under the incredibly [permissive](http://en.wikipedia.org/wiki/Permissive_free_software_licence) [MIT license](http://creativecommons.org/licenses/MIT/)
+
+Copyright &copy; 2012+ Bevry Pty Ltd <us@bevry.me> (http://bevry.me)
+
+<!-- /LICENSE -->
+
+

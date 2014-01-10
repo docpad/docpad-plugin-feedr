@@ -1,6 +1,6 @@
 {
   "name": "docpad-plugin-feedr",
-  "version": "2.6.0",
+  "version": "2.7.0",
   "description": "Adds support for reading feeds to DocPad",
   "homepage": "http://docpad.org/plugin/feedr",
   "keywords": [
@@ -15,7 +15,7 @@
     "json",
     "jsonp"
   ],
-  "author": "Bevry Pty Ltd <us@bevry.me> (http://bevry.me)",
+  "author": "2012+ Bevry Pty Ltd <us@bevry.me> (http://bevry.me)",
   "maintainers": [
     "Benjamin Lupton <b@lupton.cc> (https://github.com/balupton)"
   ],
@@ -23,7 +23,7 @@
     "Benjamin Lupton <b@lupton.cc> (https://github.com/balupton)"
   ],
   "bugs": {
-    "url": "http://docpad.org/plugin/feedr/issues"
+    "url": "https://github.com/docpad/docpad-plugin-feedr/issues"
   },
   "repository": {
     "type": "git",
@@ -36,13 +36,28 @@
     "docpad": "6"
   },
   "dependencies": {
-    "feedr": "~2.6.0"
+    "feedr": "~2.7.6"
   },
   "devDependencies": {
-    "coffee-script": "~1.6.2"
+    "coffee-script": "~1.6.2",
+    "docpad": "6",
+    "projectz": "~0.3.9"
   },
   "main": "./out/feedr.plugin.js",
   "scripts": {
     "test": "node ./out/feedr.test.js"
+  },
+  "badges": {
+    "travis": true,
+    "npm": true,
+    "david": true,
+    "daviddev": true,
+    "gittip": "docpad",
+    "flattr": "344188/balupton-on-Flattr",
+    "paypal": "QB8GQPZAH84N6",
+    "bitcoin": "https://coinbase.com/checkouts/9ef59f5479eec1d97d63382c9ebcb93a"
+  },
+  "license": {
+    "type": "MIT"
   }
 }

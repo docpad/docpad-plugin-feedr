@@ -1,4 +1,7 @@
-## History
+# History
+
+- v2.7.0 January 10, 2013
+	- Updated feedr dependency from ~2.6.0 ~2.7.6
 
 - v2.6.0 October 2, 2013
 	- Updated feedr dependency from ~2.5.0 ~2.6.0

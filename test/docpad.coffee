@@ -3,4 +3,4 @@ module.exports =
 		feedr:
 			feeds:
 				github:
-					url: "https://github.com/docpad/docpad-plugin-feedr/commits/old-for-testing.atom"
+					url: "https://github.com/bevry/feedr/commits/for-testing.atom"

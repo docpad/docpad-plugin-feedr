@@ -21,26 +21,27 @@ module.exports = (BasePlugin) ->
 
 			# Load feedr
 			unless feedr?
-				feedrOptions = config.feedrOptions or {}
-				feedrOptions.log ?= docpad.log
-				feedrOptions.xml2jsOptions ?=
-					explicitCharkey: false
-					trim: true
-					normalize: true
-					normalizeTags: false
-					attrkey: "@"
-					charkey: "#"
-					explicitArray: false
-					ignoreAttrs: false
-					mergeAttrs: false
-					explicitRoot: false
-					validator: null
-					xmlns: false
-					explicitChildren: false
-					childkey: '@@'
-					charsAsChildren: false
-					async: false
-					strict: true
+				feedrOptions = require('extendr').extend({
+					log: docpad.log
+					xml2jsOptions:
+						explicitCharkey: false
+						trim: true
+						normalize: true
+						normalizeTags: false
+						attrkey: "@"
+						charkey: "#"
+						explicitArray: false
+						ignoreAttrs: false
+						mergeAttrs: false
+						explicitRoot: false
+						validator: null
+						xmlns: false
+						explicitChildren: false
+						childkey: '@@'
+						charsAsChildren: false
+						async: false
+						strict: true
+				}, config.feedrOptions)
 				feedr = require('feedr').create(feedrOptions)
 
 			# Read the feeds and add them to the templateData

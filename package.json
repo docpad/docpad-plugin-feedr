@@ -41,9 +41,9 @@
     "feedr": "~2.10.1"
   },
   "devDependencies": {
-    "coffee-script": "^1.9.0",
+    "coffee-script": "^1.9.1",
     "docpad": "6",
-    "projectz": "^0.4.3"
+    "projectz": "^0.5.0"
   },
   "main": "./out/feedr.plugin.js",
   "scripts": {

@@ -1,9 +1,13 @@
-# v1.3.10 December 10, 2013
+# 2017 January 27
 # https://github.com/bevry/base
 
 # Temp Files
-**/*.log
+yarn.lock
 **/.docpad.db
+**/out.*
+**/*.log
+**/*.cpuprofile
+**/*.heapsnapshot
 
 # Build Files
 build/
@@ -11,6 +15,16 @@ components/
 bower_components/
 node_modules/
 out/
+*output/
+coffeejs/
+coffee/
+es5/
+es2015/
+esnext/
+docs/
+
+# Editor Caches
+.c9/
 
 # Private Files
 .env
@@ -19,6 +33,6 @@ out/
 
 
 # =====================================
-# CUSTOM MODIFICATIONS
+# CUSTOM
 
 # None

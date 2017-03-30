@@ -41,7 +41,7 @@ module.exports = (BasePlugin) ->
 						charsAsChildren: false
 						async: false
 						strict: true
-				}, config.feedrOptions)
+				}, config.feedrOptions || {})
 				feedr = require('feedr').create(feedrOptions)
 
 			# Read the feeds and add them to the templateData

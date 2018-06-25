@@ -1,5 +1,9 @@
 # History
 
+## v2.14.0 2018 June 25
+- Updated dependencies
+- Minimum supported node version is now v4 due to [nested dependency requirements](https://github.com/bevry/feedr/blob/master/HISTORY.md#v300-2018-january-25)
+
 ## v2.13.0 2018 June 25
 - Now compiled with CoffeeScript v2
 - Updated base files

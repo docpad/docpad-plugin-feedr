@@ -44,11 +44,7 @@
       "opencollectiveUsername": "bevry",
       "patreonUsername": "bevry",
       "paypalURL": "https://bevry.me/paypal",
-      "wishlistURL": "https://bevry.me/wishlist",
-      "githubUsername": "docpad",
-      "githubRepository": "docpad-plugin-feedr",
-      "githubSlug": "docpad/docpad-plugin-feedr",
-      "npmPackageName": "docpad-plugin-feedr"
+      "wishlistURL": "https://bevry.me/wishlist"
     }
   },
   "funding": "https://bevry.me/fund",
@@ -107,9 +103,9 @@
     "coffeelint": "^2.1.0",
     "coffeescript": "^2.5.1",
     "docpad": "^6.83.1",
-    "docpad-plugintester": "^1.6.2",
+    "docpad-plugintester": "^1.7.2",
     "projectz": "^2.13.0",
-    "valid-directory": "^2.8.0"
+    "valid-directory": "^3.0.0"
   },
   "scripts": {
     "our:clean": "rm -Rf ./docs ./edition* ./es2015 ./es5 ./out ./.next",

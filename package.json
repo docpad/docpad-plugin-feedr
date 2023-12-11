@@ -95,7 +95,7 @@
   "main": "edition-esnext/index.js",
   "dependencies": {
     "docpad-baseplugin": "^1.4.0",
-    "extendr": "^5.13.0",
+    "extendr": "^7.7.0",
     "feedr": "^4.8.0"
   },
   "devDependencies": {
